@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+input {
+  background-color: transparent;
+  width: 100%;
+}
+[type="checkbox"] {
+  margin {
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+  width: 100%;
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+ul {
+  margin: 0;
+  margin-inline: unset !important;
+  padding: 0;
+  list-style: none;
+}
